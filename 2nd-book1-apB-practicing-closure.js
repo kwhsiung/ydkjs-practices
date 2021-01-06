@@ -4,11 +4,13 @@
 // If the second argument is omitted, then another function should be returned that expects that argument.
 
 function range(start,end) {
+  start = +start || 0
   if (end === undefined) {
     return function (end) {
       logResult(start, end)
     }
   }
+  end = +end || 0
   logResult(start, end)
 
   function logResult(start, end) {
