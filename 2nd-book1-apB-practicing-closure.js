@@ -7,13 +7,13 @@ function range(start,end) {
   start = +start || 0
   if (end === undefined) {
     return function (end) {
-      logResult(start, end)
+      logRange(start, end)
     }
   }
   end = +end || 0
-  logResult(start, end)
+  logRange(start, end)
 
-  function logResult(start, end) {
+  function logRange(start, end) {
     let result = [];
     for (let i = start; i <= end; i++) {
       result.push(i)
