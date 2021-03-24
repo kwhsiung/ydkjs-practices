@@ -1,6 +1,7 @@
 // https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/apB.md#modules
 // As you work on this exercise,
 // also spend some time considering the pros/cons of representing the calculator as a module as opposed to the closure-function approach from the previous exercise.
+// 兩者的比較，幾乎就是「有組織」與「據自由度」的差異。
 // pros:
 // 1. 能夠使用哪些操作，全都定義在 publicApi 中，對使用者來說更明確、對設計者來說也更能掌控被使用行為。
 // cons:
