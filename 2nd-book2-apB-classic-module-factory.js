@@ -8,6 +8,7 @@
 // 1. 比起 closure-function approach 來說，設計者更需要多花一份心力特別為 publicApi 作維護。
 //
 // 不管是 module factory 或者是 closure-function approach，兩者都利用到了 closure，只不過 inner function 的呈現方式不同而已（直接 expose 一個 function，或者是 expose 多個細部操作的 function）
+// for more info: https://stackoverflow.com/questions/33825846/what-is-the-difference-between-a-closure-and-a-module
 
 function formatTotal(display) {
   if (Number.isFinite(display)) {
